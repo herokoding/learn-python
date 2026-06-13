@@ -1,8 +1,11 @@
 # Looping While
 def print_numbers_while(n):
+    # Start counting from 1 and print each number up to n.
     i = 1
     while i <= n:
+        # Print the current number in the sequence.
         print(i)
+        # Move to the next number.
         i += 1
     return "Done"
 
@@ -10,9 +13,13 @@ def print_numbers_while(n):
 print(print_numbers_while(5))
 
 # Looping For
+# Define a function that prints numbers from 1 to n using a for loop.
 def print_numbers_for(n):
+    # Iterate over numbers from 1 through n inclusive.
     for i in range(1, n + 1):
+        # Print the current number in the loop.
         print(i)
+    # Indicate the function has completed printing.
     return "Done"
 
 # Test the function

@@ -71,3 +71,12 @@ def check_logic(a, b):
 print(check_logic(10, 5))
 print(check_logic(-10, 5))
 print(check_logic(0, 0))
+
+# Nested If-Else Conditions Any Situation
+name = 'Herotomo Fazry'
+by_pass_validation = False
+
+if len(name) > 10 or by_pass_validation:
+    print("Name is valid")
+else:
+    print("Name is invalid")
